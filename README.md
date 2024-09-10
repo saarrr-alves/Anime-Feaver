@@ -18,7 +18,6 @@ Criamos um site simples e divertido pra você encontrar tudo sobre seus animes f
 **O que tem por baixo dos panos?**
 
 * **HTML, CSS e JavaScript:** A base de tudo. A gente usou essas linguagens para criar a página e fazer ela funcionar.
-* **Fuse.js:** Essa biblioteca mágica ajuda a encontrar os resultados da pesquisa rapidinho. É tipo um superpoder para a gente!
 * **Bootstrap Icons:** Deixamos tudo mais bonito com esses ícones legais.
 
 **Quer ajudar a gente a deixar o Anime Feaver ainda mais incrível?**
