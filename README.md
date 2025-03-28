@@ -8,19 +8,19 @@ O Anime Feaver é o seu melhor amigo nessa jornada!
 
 Criamos um site simples e divertido pra você encontrar tudo sobre seus animes favoritos. É tipo uma Wikipédia só dos animes, mas sem tanto texto chato. 
 
-**Como usar?**
+## Como usar?
 
 É fácil demais! 
 
-1. **Pesquise:** Digita o nome do personagem, anime ou qualquer palavra-chave que você lembrar.
-2. **Descubra:** A gente te mostra tudo sobre o que você pesquisou: descrição, fotos (ainda não, mas a gente tá trabalhando nisso!), e até links para saber mais.
+* **Pesquise:** Digita o nome do personagem, anime ou qualquer palavra-chave que você lembrar.
+* **Descubra:** A gente te mostra tudo sobre o que você pesquisou: descrição, fotos (ainda não, mas a gente tá trabalhando nisso!), e até links para saber mais.
 
-**O que tem por baixo dos panos?**
+## O que tem por baixo dos panos?
 
 * **HTML, CSS e JavaScript:** A base de tudo. A gente usou essas linguagens para criar a página e fazer ela funcionar.
 * **Bootstrap Icons:** Deixamos tudo mais bonito com esses ícones legais.
 
-**Quer ajudar a gente a deixar o Anime Feaver ainda mais incrível?**
+## Quer ajudar a gente a deixar o Anime Feaver ainda mais incrível?
 
 Manda um pull request! A gente adora novas ideias e contribuições. Você pode:
 
@@ -28,7 +28,7 @@ Manda um pull request! A gente adora novas ideias e contribuições. Você pode:
 * **Deixar o site mais bonito:** Use sua criatividade para criar um design incrível.
 * **Adicionar novas funções:** Que tal um sistema de favoritos ou uma seção de notícias?
 
-**Importante:**
+## Importante:
 
 * A gente tá começando agora, então ainda tem muita coisa pra melhorar.
 * Se você encontrar algum bug ou tiver alguma sugestão, por favor, nos avise!
