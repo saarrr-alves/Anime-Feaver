@@ -1,3 +1,29 @@
+graph TB
+    A("User Browser"):::client
+    B("index.html"):::html
+    C("css/style.css"):::css
+    D("js/dados.js"):::js
+    E("js/script.js"):::js
+    F("Bootstrap Icons"):::external
+
+    A -->|"loads"| B
+    B -->|"references"| C
+    B -->|"includes"| D
+    B -->|"includes"| E
+    B -->|"references"| F
+
+    click B "https://github.com/saarrr-alves/anime-feaver/blob/main/index.html"
+    click C "https://github.com/saarrr-alves/anime-feaver/blob/main/css/style.css"
+    click D "https://github.com/saarrr-alves/anime-feaver/blob/main/js/dados.js"
+    click E "https://github.com/saarrr-alves/anime-feaver/blob/main/js/script.js"
+
+classDef client fill:#a2d2ff,stroke:#07689f,stroke-width:2px;
+classDef html fill:#f9c74f,stroke:#f9844a,stroke-width:2px;
+classDef css fill:#90be6d,stroke:#43aa8b,stroke-width:2px;
+classDef js fill:#f3722c,stroke:#f76c6c,stroke-width:2px;
+classDef external fill:#a9def9,stroke:#1d3557,stroke-width:2px;
+
+
 ## Anime Feaver: Seu Guia Pessoal para o Mundo dos Animes
 
 Já se pegou pensando "Quem é aquele personagem maneiro que usa fogo?" ou "Qual anime tem aquele protagonista que não tem poderes"? 
