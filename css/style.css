@@ -1,173 +1,175 @@
+/* Importa a fonte "Josefin Sans" do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-/* Estiliza o corpo da página */
+/* Estilização geral do corpo da página */
 body {
-    font-family: "Josefin Sans", sans-serif; /* Define a fonte padrão */
-    background-color: #151515; /* Cor de fundo da página */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    height: 100vh; /* Preenche a altura total da viewport */
-    margin: 0; /* Remove a margem padrão */
-    padding: 0; /* Remove o padding padrão */
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-/* Estiliza os títulos h1 */
+/* Estilo dos títulos principais */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
-    color: #ededed; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    font-size: 2.5rem;
+    color: #ededed;
+    text-align: center;
+    letter-spacing: 0.4rem;
 }
 
-/* Estiliza as seções da página */
+/* Estilo das seções da página */
 section {
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
     color: white;
 }
 
+/* Seção de pesquisa organizada horizontalmente */
 #pesquisa {
     display: flex;
-    flex-direction: row; /* Alinha os itens na vertical */
+    flex-direction: row;
     align-items: center;
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    justify-content: center;
 }
 
-/* Estiliza os inputs dentro das seções */
+/* Estilo dos inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
-    border: 1px groove #ffffff54; /* Remove a borda padrão */
+    width: 30rem;
+    border: 1px groove #ffffff54;
     background-color: transparent;
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem 0 0 1.5rem; /* Borda arredondada */
-    color: #ffffff; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
+    padding: 1rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
-/* Estiliza os botões dentro das seções */
+/* Estilo dos botões dentro das seções */
 section button {
-    padding: 1rem 1.2rem; /* Espaçamento interno do botão */
-    border: 1px groove #ffffff54; /* Remove a borda padrão */
-    border-radius: 0 1.5rem 1.5rem 0; /* Borda arredondada */
-    background-color: #ffffff1d; /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
-    font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    padding: 1rem 1.2rem;
+    border: 1px groove #ffffff54;
+    border-radius: 0 1.5rem 1.5rem 0;
+    background-color: #ffffff1d;
+    color: #F5F7F8;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-/* Estiliza a caixa de resultados da pesquisa */
+/* Estilo da caixa de exibição dos resultados */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 46vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Borda arredondada */
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
 }
 
-/* Estiliza cada item de resultado */
+/* Estilo de cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
-    border-radius: 0.6rem; /* Borda arredondada */
-    padding: 1rem; /* Espaçamento interno */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    background: #FFFFFF;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
+/* Estilo dos títulos dentro dos resultados */
 .item-resultado h2 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    font-size: 1.5rem;
+    color: #222831;
 }
 
-/* Estiliza os links dentro dos itens de resultado */
+/* Estilo dos links nos resultados */
 .item-resultado a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    text-decoration: none;
+    color: #30475E;
 }
 
-/* Estiliza os links quando são passados o mouse sobre */
+/* Efeito hover nos links */
 .item-resultado a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    text-decoration: underline;
 }
 
-/* Estiliza a descrição meta dentro dos itens de resultado */
+/* Estilo das descrições nos resultados */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
-    margin: 0.5rem 0; /* Margem acima e abaixo */
+    color: #45474B;
+    margin: 0.5rem 0;
 }
 
-/* Estiliza o rodapé da página */
+/* Estilo do rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    padding: 0; /* Espaçamento interno */
-    width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
-    bottom: 0; /* Alinha ao fundo da página */
-    font-size: 1rem; /* Tamanho da fonte */
+    background-color: #F5F7F8;
+    color: #45474B;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
     display: inline-block;
 }
 
+/* Estilos responsivos para tablets */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem; /* Tamanho da fonte em telas menores */
-        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
     }
 
     section input {
-        width: 25rem; /* Largura dos inputs em telas menores */
-        padding: 0.8rem; /* Espaçamento interno em telas menores */
+        width: 25rem;
+        padding: 0.8rem;
     }
 
     .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas menores */
-        height: 40vh; /* Altura da caixa de resultados em telas menores */
+        width: 40rem;
+        height: 40vh;
     }
 
     .item-resultado h2 {
-        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+        font-size: 1.3rem;
     }
 }
 
-/* Responsividade para celulares */
+/* Estilos responsivos para celulares */
 @media (max-width: 480px) {
-
     h1 {
-        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
-        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
     }
 
     section input {
-        width: 17rem; /* Largura total dos inputs em telas pequenas */
+        width: 17rem;
     }
 
     section button {
-        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
-        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
-        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+        width: 90%;
+        height: 50vh;
     }
 
     .item-resultado h2 {
-        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+        font-size: 1.1rem;
     }
 
     footer {
-        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+        font-size: 0.9rem;
     }
 }
 
-/* Estiliza o campo de pesquisa */
+/* Estilo específico do campo de pesquisa */
 #campo-pesquisa {
     width: 30rem;
     border: 1px solid #ffffff54;
@@ -177,16 +179,16 @@ footer {
     color: #ffffff;
     font-size: 1rem;
     box-sizing: border-box;
-    height: 3rem; /* Garante a mesma altura que o botão */
-    outline: none; /* Remove a borda azul padrão */
+    height: 3rem;
+    outline: none;
 }
 
-/* Altera a cor do input quando está em foco */
+/* Mudança de cor ao focar no input */
 #campo-pesquisa:focus {
-    background-color: #3a3a3a; /* Cinza escuro ao focar */
+    background-color: #3a3a3a;
 }
 
-/* Estiliza o botão de pesquisa */
+/* Estilo do botão de pesquisa */
 #pesquisa button {
     padding: 1rem 1.2rem;
     border: 1px solid #ffffff54;
@@ -195,28 +197,16 @@ footer {
     color: #F5F7F8;
     font-size: 1rem;
     cursor: pointer;
-    height: 3rem; /* Mesmo tamanho do input */
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Ajusta a responsividade */
-@media (max-width: 768px) {
-    #campo-pesquisa {
-        width: 25rem;
-    }
-}
-
-@media (max-width: 480px) {
-    #campo-pesquisa {
-        width: 17rem;
-    }
-}
-
+/* Estilo do botão de voltar */
 #botao-voltar {
-    margin: 10px 0 20px 0;
-    transform: translateX(-120px);
+    margin: 10px auto;
+    transform: translate(-230px, -10px);
     padding: 1rem;
     border: 1px solid #ffffff54;
     border-radius: 1.5rem;
@@ -224,5 +214,24 @@ footer {
     color: #F5F7F8;
     font-size: 0.8rem;
     cursor: pointer;
-    display: none; /* Inicialmente oculto */
+    display: none;
+}
+
+/* Ajustes do botão voltar para diferentes larguras de tela */
+@media (max-width: 768px) {
+    #campo-pesquisa {
+        width: 25rem;
+    }
+    #botao-voltar {
+        transform: translate(-188px, -10px);
+    }
+}
+
+@media (max-width: 480px) {
+    #campo-pesquisa {
+        width: 17rem;
+    }
+    #botao-voltar {
+        transform: translate(-122px, -10px);
+    }
 }
