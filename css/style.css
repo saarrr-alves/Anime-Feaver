@@ -166,3 +166,63 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
+
+/* Estiliza o campo de pesquisa */
+#campo-pesquisa {
+    width: 30rem;
+    border: 1px solid #ffffff54;
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
+    height: 3rem; /* Garante a mesma altura que o botão */
+    outline: none; /* Remove a borda azul padrão */
+}
+
+/* Altera a cor do input quando está em foco */
+#campo-pesquisa:focus {
+    background-color: #3a3a3a; /* Cinza escuro ao focar */
+}
+
+/* Estiliza o botão de pesquisa */
+#pesquisa button {
+    padding: 1rem 1.2rem;
+    border: 1px solid #ffffff54;
+    border-radius: 0 1.5rem 1.5rem 0;
+    background-color: #ffffff1d;
+    color: #F5F7F8;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 3rem; /* Mesmo tamanho do input */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajusta a responsividade */
+@media (max-width: 768px) {
+    #campo-pesquisa {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #campo-pesquisa {
+        width: 17rem;
+    }
+}
+
+#botao-voltar {
+    margin: 10px 0 20px 0;
+    transform: translateX(-120px);
+    padding: 1rem;
+    border: 1px solid #ffffff54;
+    border-radius: 1.5rem;
+    background-color: #ffffff1d;
+    color: #F5F7F8;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: none; /* Inicialmente oculto */
+}
