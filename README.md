@@ -1,8 +1,8 @@
-# Anime Feaver: Seu Guia Pessoal para o Mundo dos Animes
-
 <div align="center">
   <img src="js/src/icons/icon-512X512.png" alt="iconlogo" width="250px" />
 </div>
+
+# Anime Feaver: Seu Guia Pessoal para o Mundo dos Animes
 
 Já se pegou pensando **_`"Quem é aquele personagem maneiro que usa fogo?"`_** ou **_`"Qual anime tem aquele protagonista que não tem poderes"`_**?
 
