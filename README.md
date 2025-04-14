@@ -28,6 +28,8 @@ Manda um pull request! A gente adora novas ideias e contribuições. Você pode:
 * **Deixar o site mais bonito:** Use sua criatividade para criar um design incrível.
 * **Adicionar novas funções:** Que tal um sistema de favoritos ou uma seção de notícias?
 
+---
+
 > [!NOTE]
 > O projeto **`Anime Feaver`** ainda está em fase de desenvolvimento. Se você encontrar algum bug ou tiver alguma sugestão, por favor, me avise!
 
