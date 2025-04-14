@@ -6,9 +6,7 @@
 
 Já se pegou pensando **_`"Quem é aquele personagem maneiro que usa fogo?"`_** ou **_`"Qual anime tem aquele protagonista que não tem poderes"`_**?
 
-<div align="center">
-  <p><b>O Anime Feaver é o seu melhor amigo nessa jornada!</b></p>
-</div>
+**O Anime Feaver é o seu melhor amigo nessa jornada!**
 
 ### **O que a gente fez aqui?**
 
