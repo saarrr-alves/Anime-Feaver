@@ -31,7 +31,9 @@ Manda um pull request! A gente adora novas ideias e contribuições. Você pode:
 > [!NOTE]
 > O projeto **`Anime Feaver`** ainda está em fase de desenvolvimento. Se você encontrar algum bug ou tiver alguma sugestão, por favor, me avise!
 
-• Abaixo eu listei as futuras adições desse projeto:
+---
+
+**Abaixo eu listei as futuras adições desse projeto:**
 
 - [x] Melhorar o sistema de pesquisa.
 - [x] Adicionar um botão de voltar para a tela inicial.
@@ -40,6 +42,8 @@ Manda um pull request! A gente adora novas ideias e contribuições. Você pode:
 - [ ] Criar sistemas de exibição de animes mais famosos com uso de API.
 - [ ] Criar novas páginas de exibição usando React.js.
 - [ ] Criar conexão com um banco de dados.
+
+---
 
 **Valeu por usar o Anime Feaver!** 
 
