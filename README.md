@@ -1,7 +1,5 @@
 # Anime Feaver: Seu Guia Pessoal para o Mundo dos Animes
 
-![screeshot](/js/src/icons/icons-512X512.png)
-
 Já se pegou pensando "Quem é aquele personagem maneiro que usa fogo?" ou "Qual anime tem aquele protagonista que não tem poderes"? 
 
 O Anime Feaver é o seu melhor amigo nessa jornada! 
@@ -9,22 +7,6 @@ O Anime Feaver é o seu melhor amigo nessa jornada!
 **O que a gente fez aqui?**
 
 Criamos um site simples e divertido pra você encontrar tudo sobre seus animes favoritos. É tipo uma Wikipédia só dos animes, mas sem tanto texto chato.
-
-## Exibição do Projeto
-
-### - Aplicativo do **Anime Feaver** usando PWA.
-
-![screeshot](/img&video/PWA-application.png)
-
-### - Tela inicial do site na versão de aplicativo.
-
-![screeshot](/img&video/main-page.png)
-
-### - Gif do uso prático da barra de pesquisa e do botão de voltar ao início.
-
-<div align="center">
-  ![screeshot](/img&video/application-usage.gif)
-</div>
 
 ## Como usar?
 
