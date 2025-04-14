@@ -1,10 +1,16 @@
 # Anime Feaver: Seu Guia Pessoal para o Mundo dos Animes
 
-Já se pegou pensando "Quem é aquele personagem maneiro que usa fogo?" ou "Qual anime tem aquele protagonista que não tem poderes"? 
+<div align="center">
+  <img src="js/src/icons/icon-512X512.png" alt="iconlogo" width="350px" />
+</div>
 
-O Anime Feaver é o seu melhor amigo nessa jornada! 
+Já se pegou pensando **_`"Quem é aquele personagem maneiro que usa fogo?"`_** ou **_`"Qual anime tem aquele protagonista que não tem poderes"`_**?
 
-**O que a gente fez aqui?**
+<div align="center">
+  <p><b>O Anime Feaver é o seu melhor amigo nessa jornada!</b></p>
+</div>
+
+### **O que a gente fez aqui?**
 
 Criamos um site simples e divertido pra você encontrar tudo sobre seus animes favoritos. É tipo uma Wikipédia só dos animes, mas sem tanto texto chato.
 
