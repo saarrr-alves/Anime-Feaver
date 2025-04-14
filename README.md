@@ -53,10 +53,13 @@ Manda um pull request! A gente adora novas ideias e contribuições. Você pode:
 
 ---
 
-**Valeu por usar o Anime Feaver!** 
+### **📑Licença:**
 
-**Licença:**
+MIT (significa que você pode usar esse código como quiser, mas não pode nos processar se algo der errado.)
 
-MIT (significa que você pode usar esse código como quiser, mas não pode nos processar se algo der errado. )
+---
 
-**E aí, pronto para explorar o mundo dos animes com a gente?**
+<div align="center">
+  <p><b>Valeu por usar o Anime Feaver!</b></p>
+  <p><b>E aí, pronto para explorar o mundo dos animes com a gente?</b></p>
+</div>
