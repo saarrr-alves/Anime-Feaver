@@ -14,10 +14,29 @@ Criamos um site simples e divertido pra você encontrar tudo sobre seus animes f
 
 ## Como usar?
 
-É fácil demais! 
+É fácil demais!
 
-* **Pesquise:** Digita o nome do personagem, anime ou qualquer palavra-chave que você lembrar.
-* **Descubra:** A gente te mostra tudo sobre o que você pesquisou: descrição, fotos (ainda não, mas a gente tá trabalhando nisso!), e até links para saber mais.
+* **É assim que a página inicial se parece.**
+
+<div align="left">
+  <img src="images/initial-page.png" alt="página inicial" width="300px" />
+</div>
+
+---
+
+* **Pesquise:** Digita o nome do personagem, anime ou qualquer palavra-chave que você lembrar na barra de pesquisa (no momento temos apenas três personagens pesquisáveis).
+
+<div align="left">
+  <img src="images/searching-page.png" alt="página de resultados" width="300px" />
+</div>
+
+---
+
+* **Botão voltar a página inicial:** Por questões estéticas e pelo nosso projeto, no momento, possuir uma única página, acrescentei um botão de **`<- Voltar`** para ter uma tela muito mais bonita quando quiser pesquisar outro personagem.
+
+<div align="left">
+  <img src="images/back-button-usage.png" alt="página de resultados" width="300px" />
+</div>
 
 ## O que tem por baixo dos panos?
 
