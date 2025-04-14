@@ -29,7 +29,9 @@ Manda um pull request! A gente adora novas ideias e contribuições. Você pode:
 * **Adicionar novas funções:** Que tal um sistema de favoritos ou uma seção de notícias?
 
 > [!NOTE]
-> O projeto **`Anime Feaver`** ainda está em fase de desenvolvimento. Se você encontrar algum bug ou tiver alguma sugestão, por favor, me avise!. Abaixo eu listei as futuras adições desse projeto:
+> O projeto **`Anime Feaver`** ainda está em fase de desenvolvimento. Se você encontrar algum bug ou tiver alguma sugestão, por favor, me avise!
+
+• Abaixo eu listei as futuras adições desse projeto:
 
 - [x] Melhorar o sistema de pesquisa.
 - [x] Adicionar um botão de voltar para a tela inicial.
