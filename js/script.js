@@ -71,5 +71,5 @@ document.getElementById("campo-pesquisa").addEventListener("keypress", function(
 
 // Registra o Service Worker para funcionamento como PWA (Progressive Web App)
 if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js")
+    navigator.serviceWorker.register("js/sw.js")
 };
