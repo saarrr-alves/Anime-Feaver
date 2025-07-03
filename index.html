@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="manifest" href="js/manifest.json">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+    initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="js/manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Anime Feaver</title>
-</head>
-<body>
-  <header>
-    <h1>Anime Feaver</h1>
-  </header>
-  
-  <button id="botao-voltar" style="display: none;" onclick="voltarParaInicio()" class="bi bi-arrow-left">
-    Voltar
-  </button>
-  
-  <main>
-    
-    <section id="pesquisa">
-      <input type="text" inputmode="search" id="campo-pesquisa" placeholder="Digite seu anime ou personagem">
-      <button onclick="pesquisar()"><i class="bi bi-search"></i></button>
-    </section>
-    
-    <section class="resultados-pesquisa" id="resultados-pesquisa">
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Anime Feaver. Todos os direitos reservados.</p>
-  </footer>
-  <script src="js/dados.js"></script>
-  <script src="js/script.js"></script>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Anime Feaver</h1>
+    </header>
+
+    <button
+      id="botao-voltar"
+      style="display: none"
+      onclick="voltarParaInicio()"
+      class="bi bi-arrow-left"
+    >
+      Voltar
+    </button>
+
+    <main>
+      <section id="pesquisa">
+        <input
+          type="text"
+          inputmode="search"
+          id="campo-pesquisa"
+          placeholder="Digite seu anime ou personagem"
+        />
+        <button onclick="pesquisar()"><i class="bi bi-search"></i></button>
+      </section>
+
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Anime Feaver. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/dados.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

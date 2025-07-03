@@ -4,7 +4,7 @@
 /* Estilização geral do corpo da página */
 body {
     font-family: "Josefin Sans", sans-serif;
-    background-color: #151515;
+    background-image: linear-gradient(0deg, #ff8749 0%, #ff8749 20%, #fffcfb 50%, #fffcfb 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,12 +12,13 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    accent-color: #008080;
 }
 
 /* Estilo dos títulos principais */
 h1 {
     font-size: 2.5rem;
-    color: #ededed;
+    color: #ff8749;
     text-align: center;
     letter-spacing: 0.4rem;
 }
@@ -74,7 +75,7 @@ section button {
 
 /* Estilo de cada item de resultado */
 .item-resultado {
-    background: #FFFFFF;
+    background: #e6f4f1;
     border-radius: 0.6rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -84,13 +85,13 @@ section button {
 /* Estilo dos títulos dentro dos resultados */
 .item-resultado h2 {
     font-size: 1.5rem;
-    color: #222831;
+    color: #008080;
 }
 
 /* Estilo dos links nos resultados */
 .item-resultado a {
+    color: #008080;
     text-decoration: none;
-    color: #30475E;
 }
 
 /* Efeito hover nos links */
@@ -106,8 +107,8 @@ section button {
 
 /* Estilo do rodapé da página */
 footer {
-    background-color: #F5F7F8;
-    color: #45474B;
+    background-color: #ff8749;
+    color: #e6f4f1;
     text-align: center;
     padding: 0;
     width: 100%;
@@ -172,11 +173,11 @@ footer {
 /* Estilo específico do campo de pesquisa */
 #campo-pesquisa {
     width: 30rem;
-    border: 1px solid #ffffff54;
+    border: 1px solid #008080;
     background-color: transparent;
     padding: 1rem;
     border-radius: 1.5rem 0 0 1.5rem;
-    color: #ffffff;
+    color: #008080;
     font-size: 1rem;
     box-sizing: border-box;
     height: 3rem;
@@ -185,16 +186,16 @@ footer {
 
 /* Mudança de cor ao focar no input */
 #campo-pesquisa:focus {
-    background-color: #3a3a3a;
+    background-color: #e6f4f1;
 }
 
 /* Estilo do botão de pesquisa */
 #pesquisa button {
     padding: 1rem 1.2rem;
-    border: 1px solid #ffffff54;
+    border: 1px solid #008080;
     border-radius: 0 1.5rem 1.5rem 0;
     background-color: #ffffff1d;
-    color: #F5F7F8;
+    color: #008080;
     font-size: 1rem;
     cursor: pointer;
     height: 3rem;
@@ -208,10 +209,10 @@ footer {
     margin: 10px auto;
     transform: translate(-230px, -10px);
     padding: 1rem;
-    border: 1px solid #ffffff54;
+    border: 1px solid #008080;
     border-radius: 1.5rem;
-    background-color: #ffffff1d;
-    color: #F5F7F8;
+    background-color: #e6f4f1;
+    color: #008080;
     font-size: 0.8rem;
     cursor: pointer;
     display: none;
