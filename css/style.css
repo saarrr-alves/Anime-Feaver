@@ -71,6 +71,7 @@ section button {
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 0.6rem;
+    color: #008080;
 }
 
 /* Estilo de cada item de resultado */
