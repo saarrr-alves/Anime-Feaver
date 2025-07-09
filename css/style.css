@@ -173,7 +173,7 @@ footer {
 /* Estilo específico do campo de pesquisa */
 #campo-pesquisa {
     width: 30rem;
-    border: 1px solid #008080;
+    border: 2px solid #008080;
     background-color: transparent;
     padding: 1rem;
     border-radius: 1.5rem 0 0 1.5rem;
@@ -192,7 +192,7 @@ footer {
 /* Estilo do botão de pesquisa */
 #pesquisa button {
     padding: 1rem 1.2rem;
-    border: 1px solid #008080;
+    border: 2px solid #008080;
     border-radius: 0 1.5rem 1.5rem 0;
     background-color: #ffffff1d;
     color: #008080;
@@ -235,4 +235,26 @@ footer {
     #botao-voltar {
         transform: translate(-122px, -10px);
     }
+}
+
+/* Custom scrollbar */
+html {
+    scrollbar-width: normal;
+    scrollbar-color: #008080 #e6f4f100;
+}
+
+/* Chrome, Edge, Safari */
+html::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 0.6rem;
+    background: #e6f4f1;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #008080;
+    border-radius: 0.6rem;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #ff8749;
 }
